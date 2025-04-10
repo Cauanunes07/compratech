@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CompraTech - Compras de Equipamentos Tecnológicos</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>CompraTech</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre">
+      <h2>Sobre a CompraTech</h2>
+      <p>A CompraTech é uma loja especializada em oferecer as melhores opções de celulares do mercado, com uma ampla variedade de marcas e modelos para atender às necessidades e preferências de cada cliente. Com um atendimento personalizado e soluções inovadoras, garantimos que você encontre o dispositivo ideal, seja para uso pessoal ou profissional. Nossa missão é proporcionar tecnologia de ponta, qualidade, e ótimos preços, garantindo a satisfação e a confiança dos nossos consumidores. Além disso, oferecemos assistência técnica especializada, acessórios exclusivos e um atendimento rápido e eficiente, tudo para que você tenha a melhor experiência possível com seus aparelhos móveis.</p>
+    </section>
+
+    <section id="produtos">
+      <h2>Nossos Produtos</h2>
+      <ul>
+        <li>
+          <h3>Asus Rog Phone 8 Pro</h3>
+          <p>Smartphone Asus Rog Phone 8 Pro 512gb 5g Snapdragon 8 Gen 3 16gb Ram Tela 6,78" AmoLED 165hz Câm Tripla 50mp+32mp - Phantom Black</p>
+          <br>
+          <img src="https://images1.kabum.com.br/produtos/fotos/sync_mirakl/617581/Smartphone-Asus-Rog-Phone-8-Pro-512gb-5g-Snapdragon-8-Gen-3-16gb-Ram-Tela-6-78-AmoLED-165hz-C-m-Tripla-50mp-32mp-Phantom-Black_1722522042_g.jpg" alt="">
+          <br>
+          <button onclick="addToCart('rog-phone')">Adicionar ao Carrinho</button>
+          <br>
+          <br>
+          <h3>Xiaomi Poco X6 5G</h3>
+          <p>Xiaomi POCO Poco X6 5G Dual SIM 256 GB azul 12 GB RAM</p>
+          <br>
+          <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQOvWVKIazOEFC1FsgvIO4g7MdN4Q9uUehv9LzCychrP0MxRGuw_qwDXDxCmvcqOzkJlF_qhh4eR4HuDpbV-Sikl4TBmDMWdBNiLY7MMhBHgbekJkV7hU2v&usqp=CAE" alt="">
+          <br>
+          <button onclick="addToCart('xiaomi-poco')">Adicionar ao Carrinho</button>
+          <br>
+          <br>
+          <h3>Samsung Galaxy S25 Ultra</h3>
+          <p>Celular Samsung Galaxy S25 Ultra 5G, 512GB, 12GB RAM, Câmera Quádrupla de 200+50+10+50, Tela Grande de 6.9", Titânio Preto</p>
+          <br>
+          <img src="https://m.media-amazon.com/images/I/41uS5ZSX9yL._AC_SX679_.jpg" id="samsung">
+          <br>
+          <br>
+          <button onclick="addToCart('galaxy-s25')">Adicionar ao Carrinho</button>
+          <br>
+          <br>
+          <h3>Iphone 16 Pro Max</h3>
+          <p>Apple iPhone 16 Pro Max (256 GB) - Titânio preto</p>
+          <br>
+          <img src="https://m.media-amazon.com/images/I/51WHMPAJEKL._AC_SX679_.jpg" id="iphone">
+          <br>
+          <button onclick="addToCart('iphone-16')">Adicionar ao Carrinho</button>   
+        </li>
+      </ul>
+      <br>
+      <hr>
+    </section>
+
+    <section id="contato">
+      <h2>Entre em Contato</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required>
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <br>
+        <br>
+        <label for="mensagem">Mensagem:</label>
+        <br>
+        <textarea id="mensagem" required> </textarea>
+        <br>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 CompraTech. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
